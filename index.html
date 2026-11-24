@@ -292,6 +292,12 @@ h2.h em.s{font-size:1.06em;}
 .p-art{width:150px;height:110px;border-radius:14px;display:grid;place-items:center;background:var(--tint);transition:transform .5s cubic-bezier(.2,.8,.2,1),background .3s;}
 .prow:hover .p-art{transform:rotate(-4deg) scale(1.06);}
 .p-art svg{width:78%;height:auto;}
+.p-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;}
+.p-link{position:relative;z-index:1;display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.76rem;font-weight:500;padding:7px 14px;border-radius:999px;text-decoration:none;color:var(--ink);background:#fff;border:1px solid var(--rule-2);transition:background .25s,color .25s,border-color .25s,transform .25s;}
+.p-link:hover{background:var(--ink);color:#fff;border-color:var(--ink);transform:translateY(-2px);}
+.p-link:focus-visible{outline:2px solid var(--tink);outline-offset:2px;}
+.p-link.primary{background:var(--ink);color:#fff;border-color:var(--ink);}
+.p-link.primary:hover{background:var(--tink);border-color:var(--tink);}
 
 /* ---------- SKILLS: typographic rows ---------- */
 .skills{margin-top:56px;}
@@ -620,6 +626,29 @@ footer{margin-top:110px;padding-top:24px;border-top:1px solid var(--rule-2);disp
           </div>
           <div class="p-art" aria-hidden="true">
             <svg viewBox="0 0 120 80" fill="none"><rect x="4" y="30" width="112" height="22" rx="11" fill="#86C3D6" opacity=".7"/><rect x="38" y="16" width="44" height="48" rx="12" fill="#fff" stroke="#24705A" stroke-width="3"/><path d="M45 41h7l4-9 6 17 5-11 3 3h5" stroke="#24705A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="60" cy="8" r="3" fill="#FFC56E"/><circle cx="50" cy="4" r="2" fill="#FF9F92"/><circle cx="70" cy="3" r="2" fill="#FFC56E"/></svg>
+          </div>
+        </article>
+
+        <article class="prow rv" style="--tint:#D3C8F7;--tink:#4A3A8C;">
+          <span class="p-no">05</span>
+          <div>
+            <h3 class="p-title">Atelier <em class="s">3D fashion e-commerce storefront</em></h3>
+            <span class="p-kind">Frontend · Live demo</span>
+          </div>
+          <div class="p-body">
+            <ul>
+              <li>Built a premium fashion storefront with an immersive 3D interface: a draggable product ring, coverflow categories, a swipeable card deck and a tilted infinite product wall.</li>
+              <li>Includes shop filters, product pages, cart, wishlist and checkout flows, with dark and light themes that persist between visits.</li>
+              <li>Every push to main deploys automatically to GitHub Pages through a GitHub Actions pipeline.</li>
+            </ul>
+            <p class="p-stack">React · TypeScript · Vite · Tailwind CSS · GitHub Actions</p>
+            <div class="p-links">
+              <a class="p-link primary" href="https://albimaria.github.io/atelier/" target="_blank" rel="noopener noreferrer">Live site <span aria-hidden="true">↗</span></a>
+              <a class="p-link" href="https://github.com/albimaria/atelier" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="p-art" aria-hidden="true">
+            <svg viewBox="0 0 120 80" fill="none"><ellipse cx="60" cy="70" rx="44" ry="6" fill="#4A3A8C" opacity=".15"/><rect x="10" y="22" width="22" height="34" rx="5" fill="#86C3D6" transform="rotate(-14 21 39)"/><rect x="88" y="22" width="22" height="34" rx="5" fill="#8FDDBE" transform="rotate(14 99 39)"/><rect x="40" y="12" width="40" height="52" rx="8" fill="#fff" stroke="#4A3A8C" stroke-width="3"/><path d="M50 34h20l-2 18H52z" fill="#FF9F92"/><path d="M54 34v-3a6 6 0 0 1 12 0v3" stroke="#4A3A8C" stroke-width="2.5" stroke-linecap="round"/><path d="M98 6l2.5 5 5 2.5-5 2.5-2.5 5-2.5-5-5-2.5 5-2.5z" fill="#FFC56E"/><circle cx="18" cy="10" r="3" fill="#FFC56E"/></svg>
           </div>
         </article>
       </div>
