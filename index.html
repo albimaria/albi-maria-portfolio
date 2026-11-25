@@ -519,7 +519,7 @@ footer{margin-top:110px;padding-top:24px;border-top:1px solid var(--rule-2);disp
             <li>Collaborate with the team through Git and GitHub for version control, code reviews and releases.</li>
           </ul>
           <p class="conf">Client products are confidential; the problems and tools are described here.</p>
-          <div class="stack"><span>NestJS</span><span>Flutter</span><span>Python</span><span>MySQL</span><span>REST APIs</span><span>Meta Graph API</span></div>
+          <div class="stack"><span>NestJS</span><span>Flutter</span><span>Python</span><span>MySQL</span><span>SQLite</span><span>REST APIs</span><span>Meta Graph API</span></div>
         </article>
 
         <article class="role rv">
@@ -581,8 +581,31 @@ footer{margin-top:110px;padding-top:24px;border-top:1px solid var(--rule-2);disp
           </div>
         </article>
 
-        <article class="prow rv" style="--tint:#A9D3E3;--tink:var(--lagune-i);">
+        <article class="prow rv" style="--tint:#C7D4FF;--tink:#3A3FB0;">
           <span class="p-no">02</span>
+          <div>
+            <h3 class="p-title">Nova <em class="s">Full-stack AI assistant with a 3D interface</em></h3>
+            <span class="p-kind">Full-stack AI · Live demo</span>
+          </div>
+          <div class="p-body">
+            <ul>
+              <li>Built a ChatGPT-style assistant that streams replies from Google Gemini over server-sent events, with three model tiers, its own system prompt and personality, per-user custom instructions, and automatic retry and fallback when the API is overloaded.</li>
+              <li>Designed a FastAPI backend with JWT auth, SQLAlchemy and Alembic migrations, per-user rate limits, file analysis (PDF, images, Word), shareable chat links, and a live usage tracker that records Gemini token counts against the API quota.</li>
+              <li>Made the React interface with a Three.js scene that reacts while the model is thinking, plus Markdown, code and LaTeX rendering, voice input, and dark and light themes. A pytest suite runs in GitHub Actions before every deploy.</li>
+            </ul>
+            <p class="p-stack">React · Three.js · Python · FastAPI · Google Gemini API · SQLAlchemy · SQLite · JWT · pytest · GitHub Actions</p>
+            <div class="p-links">
+              <a class="p-link primary" href="https://albimaria.github.io/nova-ai-chatbot/#/demo" target="_blank" rel="noopener noreferrer">Try live demo <span aria-hidden="true">↗</span></a>
+              <a class="p-link" href="https://github.com/albimaria/nova-ai-chatbot" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="p-art" aria-hidden="true">
+            <svg viewBox="0 0 120 80" fill="none"><ellipse cx="60" cy="72" rx="40" ry="5" fill="#3A3FB0" opacity=".15"/><circle cx="84" cy="40" r="22" fill="#7B61FF"/><circle cx="84" cy="40" r="22" fill="url(#novaGlow)"/><ellipse cx="77" cy="31" rx="7" ry="4" fill="#fff" opacity=".7" transform="rotate(-30 77 31)"/><rect x="6" y="14" width="50" height="20" rx="9" fill="#fff" stroke="#3A3FB0" stroke-width="2.5"/><rect x="14" y="22" width="26" height="4" rx="2" fill="#3A3FB0" opacity=".5"/><rect x="16" y="44" width="44" height="18" rx="8" fill="#86C3D6"/><rect x="24" y="51" width="22" height="4" rx="2" fill="#fff"/><path d="M108 8l2.5 5 5 2.5-5 2.5-2.5 5-2.5-5-5-2.5 5-2.5z" fill="#FFC56E"/><defs><radialGradient id="novaGlow" cx=".7" cy=".75" r=".6"><stop offset="0" stop-color="#22D3EE" stop-opacity=".9"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient></defs></svg>
+          </div>
+        </article>
+
+        <article class="prow rv" style="--tint:#A9D3E3;--tink:var(--lagune-i);">
+          <span class="p-no">03</span>
           <div>
             <h3 class="p-title">Coral Reef Pollution Detection <em class="s">AI-based multimodal system</em></h3>
             <span class="p-kind">Research · CVCNCE-2025</span>
@@ -600,7 +623,7 @@ footer{margin-top:110px;padding-top:24px;border-top:1px solid var(--rule-2);disp
         </article>
 
         <article class="prow rv" style="--tint:#FFD089;--tink:var(--peche-i);">
-          <span class="p-no">03</span>
+          <span class="p-no">04</span>
           <div>
             <h3 class="p-title">Study Buddy <em class="s">AI chatbot for students</em></h3>
             <span class="p-kind">LLM application</span>
@@ -618,7 +641,7 @@ footer{margin-top:110px;padding-top:24px;border-top:1px solid var(--rule-2);disp
         </article>
 
         <article class="prow rv" style="--tint:#FFB3A5;--tink:var(--nectarine-i);">
-          <span class="p-no">04</span>
+          <span class="p-no">05</span>
           <div>
             <h3 class="p-title">Beacon Class <em class="s">Teacher–student communication platform</em></h3>
             <span class="p-kind">Solution Architect</span>
@@ -636,7 +659,7 @@ footer{margin-top:110px;padding-top:24px;border-top:1px solid var(--rule-2);disp
         </article>
 
         <article class="prow rv" style="--tint:#A8E3C8;--tink:var(--menthe-i);">
-          <span class="p-no">05</span>
+          <span class="p-no">06</span>
           <div>
             <h3 class="p-title">Alcohol &amp; Inhalant Detection Wristband <em class="s">Non-invasive wearable</em></h3>
             <span class="p-kind">Embedded systems</span>
@@ -663,9 +686,9 @@ footer{margin-top:110px;padding-top:24px;border-top:1px solid var(--rule-2);disp
       <h2 class="h rv">Tools I <em class="s">think</em> in</h2>
       <div class="skills">
         <div class="srow rv" style="--c:var(--nectarine);"><h3><i></i>AI / Machine Learning</h3><p><span>Generative AI</span><span>LLMs</span><span>Agentic AI</span><span>RAG</span><span>Prompt Engineering</span><span>NLP</span><span>Multimodal AI</span><span>Machine Learning</span></p></div>
-        <div class="srow rv" style="--c:var(--peche);"><h3><i></i>AI frameworks</h3><p><span>LangChain</span><span>Hugging Face Transformers</span><span>OpenAI API</span></p></div>
+        <div class="srow rv" style="--c:var(--peche);"><h3><i></i>AI frameworks</h3><p><span>LangChain</span><span>Hugging Face Transformers</span><span>OpenAI API</span><span>Google Gemini API</span></p></div>
         <div class="srow rv" style="--c:var(--menthe);"><h3><i></i>Backend &amp; APIs</h3><p><span>FastAPI</span><span>NestJS</span><span>REST APIs</span><span>Meta Graph API</span></p></div>
-        <div class="srow rv" style="--c:var(--lagune);"><h3><i></i>Frontend &amp; mobile</h3><p><span>Flutter</span><span>HTML5</span><span>CSS3</span><span>Responsive Design</span></p></div>
+        <div class="srow rv" style="--c:var(--lagune);"><h3><i></i>Frontend &amp; mobile</h3><p><span>React</span><span>Three.js</span><span>Flutter</span><span>HTML5</span><span>CSS3</span><span>Responsive Design</span></p></div>
         <div class="srow rv" style="--c:var(--nectarine);"><h3><i></i>Languages</h3><p><span>Python</span><span>TypeScript</span><span>JavaScript</span><span>SQL</span><span>Java</span><span>Dart</span></p></div>
         <div class="srow rv" style="--c:var(--peche);"><h3><i></i>Data, cloud &amp; tools</h3><p><span>MySQL</span><span>AWS</span><span>Git</span><span>GitHub</span><span>VS Code</span><span>Cursor</span><span>Arduino</span></p></div>
         <div class="srow rv" style="--c:var(--menthe);"><h3><i></i>How I work</h3><p><span>Problem Solving</span><span>Team Leadership</span><span>Communication</span><span>Adaptability</span><span>Agile Collaboration</span></p></div>
